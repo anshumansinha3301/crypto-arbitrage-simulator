@@ -1,1 +1,9 @@
-# crypto-arbitrage-simulator
+# Crypto Arbitrage Simulator (Python)
+
+The Crypto Arbitrage Simulator is an advanced Python project designed to model arbitrage opportunities across multiple cryptocurrency exchanges. It allows users to simulate fluctuating prices, account for trading fees, and identify potential profitable buy and sell opportunities. By providing a realistic approximation of exchange dynamics, this project offers a hands-on way to understand arbitrage strategies in the fast-paced world of digital assets and decentralized finance (DeFi).
+
+This project enables users to define multiple exchanges and a cryptocurrency symbol, then simulates random price movements for each exchange over a series of days. The simulator calculates effective buy and sell prices by incorporating trading fees and evaluates all possible exchange pairs to find profitable arbitrage opportunities. It provides a clear report of the best opportunities each day, helping users visualize how price differences and fees affect potential profits.
+
+Implemented entirely in a single Python file using only the standard library, the Crypto Arbitrage Simulator is lightweight, accessible, and highly extendable. Contributors can add additional features such as multiple cryptocurrency symbols, dynamic fee structures, or more sophisticated market modeling to enhance realism. This makes it an excellent educational tool for developers, finance enthusiasts, and Hacktoberfest participants looking to explore algorithmic trading and cryptocurrency markets.
+
+Beyond education, this simulator serves as a foundation for understanding and testing arbitrage strategies in a controlled environment before applying them to real-world trading. By combining stochastic price generation, fee-adjusted calculations, and multi-exchange analysis, the Crypto Arbitrage Simulator bridges theoretical finance concepts with practical implementation, making it a novel and valuable Hacktoberfest 2025 project.
